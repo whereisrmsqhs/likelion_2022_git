@@ -1,0 +1,36 @@
+.main {
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color:  #9DF0E1;
+    border : 5px solid white;
+  }
+  
+  .main-padding {
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color: #00E1FF;
+    border : 5px solid white;
+    
+  /*padding*/
+    padding : 10px;
+  }
+body{
+    text-align: center;
+  }
+  
+  .top {
+      width: 200px;
+      height: 100px;
+      background-color: #9DF0E1;
+      padding: 10px;
+      margin: 20px;
+  }
+  .bottom {
+      width: 200px;
+      height: 100px;
+      background-color: #00E1FF;
+      padding: 10px;
+      margin: 20px;
+  }
