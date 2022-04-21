@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+    font-style: bold;
+    color : #FF9900
+}
+
+body {
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+    background-image: url("https://ac-p.namu.la/20210716/eff2e780e7101c483996df3af947e561249605bd4e0e5fd3dec9750922a9dd4c.png?type=orig");
+    background-color: transparent;
+    background-size : 192px 108px;
+}
+
+.title-box{
+    text-align: right;
+}
+
+h1 {
+    font-style: italic;
+}
+
+h2{
+    overflow: hidden;
+    border-bottom: 2px solid #ebebeb;
+}
+
+.selfy{
+    float: left;
+}
+
+.about-me-text{
+    float: right;
+}
+
+
+.name-text {
+    font-size:16px;
+    color:#7c7c7c;
+    font-weight: bold;
+}
+
+.about-me-text {
+    font-size:16px;
+    line-height: 16px;
+}
+
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom:24px;
+    overflow: hidden;
+}
+
+.float-wrap {
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+.title-text {
+    font-size:16px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+}
+
+.year-text{
+    font-size:16px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.desc-text {
+    font-size: 16px;
+    margin-bottom:6px;
+}
+
+.desc-subtext {
+    font-size: 16px;
+    color:#282828;
+    padding-left:16px;
+    margin-bottom:8px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    font-size: 12px;
+    color: #919191;
+}
+
+.title-box {
+    text-align: right;
+}
