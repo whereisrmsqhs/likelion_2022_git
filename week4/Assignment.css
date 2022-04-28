@@ -11,7 +11,10 @@ body {
     background-image: url("https://ac-p.namu.la/20210716/eff2e780e7101c483996df3af947e561249605bd4e0e5fd3dec9750922a9dd4c.png?type=orig");
     background-color: transparent;
     background-size : 192px 108px;
+    width: 900px;
+    height: 1200px;
 }
+
 
 .title-box{
     text-align: right;
