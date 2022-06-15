@@ -1,0 +1,32 @@
+<h1>제목</h1>
+{{ post_detail.title }}
+<h2>날짜</h2>
+{{ post_detail.date }}
+<h3>본문</h3>
+{{ post_detail.body }}
+<br/><br/>
+{% if post_detail.photo %}
+    <img src="{{ post_detail.photo.url }}" alt="" height="600">
+{% endif %}
+
+<h3>댓글</h3>
+
+<form method="POST" action="{% url 'create_comment' post_detail.id %}">
+    {% csrf_token %}
+    {{ comment_form }}
+    <input type="submit">
+</form>
+
+
+{% for comment in post_detail.comment_set.all %}
+<p>{{ comment }}</p>
+<hr>
+{% endfor %}
+<!-- 
+    문제점 : 본문 중간에 어떠한 사진이 들어올 수가 없다.
+    
+    예) django설치 방법을 설명하겠습니다.
+        (설명 사진)
+        이렇게 하면 됩니다.
+
+-->

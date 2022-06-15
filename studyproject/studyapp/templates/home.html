@@ -1,0 +1,14 @@
+<h1>전공 국밥집</h1>
+
+<a href="{% url 'modelform' %}">새 글 작성하기</a>
+
+{% for post in posts %}
+    <a href="{% url 'detail' post.id %}"><h3>{{ post.title }}</h3></a>
+    <h5>{{ post.date }}</h5>
+
+    <br/>
+{% endfor %}
+
+<!--
+    요구 개선사항: 제목 앞에 하나의 게시판이란것을 보여줄 수 있는게 있으면 좋겠다.(색깔로 구분한든, 번호로 구분하든,...)
+-->
